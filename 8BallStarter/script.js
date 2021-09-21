@@ -22,14 +22,13 @@ var lifesAnswers = [
 ];
 
 function ask(){
-    console.log(document.querySelector("#question").value)
-    if (document.querySelector("#question").value =="");{
-        document.querySelector("#answer").innerText ="Please ask me a question."; 
-    } else {
+    // console.log(document.querySelector("#question").value)
+    // if (document.querySelector("#question").value =="");{
+    //     document.querySelector("#answer").innerText ="Please ask me a question."; 
+    // } else {
     document.querySelector("#image").setAttribute('src', 'ball.gif');
     setTimeout(replace, 1000);
     }
-}
 function replace(){
     document.querySelector("#image").setAttribute('src', 'ballStill.jpg')
     var random= Math.floor(Math.random()*lifesAnswers.length);

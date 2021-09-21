@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="banner">
+        <div id="nav">
+            <div id="innerNav">
+                <ul id="navleft">
+                    <h1>Profile</h1>
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+                <div id="navright">
+                    <button>Sign Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="column1">
+            <div id="namecard">
+                <div id="namecard1">
+                    <img id="jane" src="images\jane-m.jpg" alt="Jane">
+                    <p id="janename">Jane Doe</p>
+                    <img id="marker" src="icons/map-marker.png" alt="">
+                    <p id="location">Seattle</p>
+                    <P id="context"> Developer | Engineer | Problem Solver Master of shadows and the Internet!</P>
+                    <p id="edit" onclick="edit()">edit profile</p>
+                    <img id="gear" src="icons/gear.png" alt="gear">
+                </div>
+                <div id="picture"></div>
+            </div>
+            <div id="education">
+                <p id="education2">Education</p>
+                <div id="education1">
+                    <h3 id = "dojo">Coding Dojo - Full Stack Bootcamp</h3>
+                    <h6 id = "time">Dec 2019 - Mar 2020</h6>
+                    <p id = "earn" >Triple black belt in Python, MERN, and C##... </p>
+                </div>
+            </div>
+        </div>
+        <div id="connectionbox">
+            <div id="connectionR">
+                <p id="circle">2</p>
+                <p id="connectionR2">Connection Requests</p>
+            <div id="connectionR1">
+                <div id="todd">
+                    <img id="todd1" src="images/todd-s.jpg" alt="todd">
+                    <p id= "toddname"> Todd E</p>
+                    <img id = "accept" onclick="add()" src="icons/accept-circle.png" alt="accept">
+                    <img id = "decline" onclick="subtract()" src="icons/close-circle.png" alt="decline">
+                </div>
+                <div id="phil">
+                    <img id="phil1" src="images/phil-s.jpg" alt="phil">
+                    <p id= "philname"> Phil K</p>
+                    <img id = "accept" onclick="add1()" src="icons/accept-circle.png" alt="accept">
+                    <img id = "decline" onclick="subtract1()" src="icons/close-circle.png" alt="decline">
+                </div>
+                </div>
+            </div>
+            <div id="Yconnection">
+                <p id="circle1">418</p>
+                <p id="Yconnection2">Your Connections</p>
+                <div id="Yconnection1">
+                    <div id="adrien">
+                        <img id="adrien1" src="images/adrien-s.jpg" alt="adrien">
+                        <p id= "adrienname"> Adrien D</p>
+                    </div>
+                    <div id="anne">
+                        <img id="anne1" src="images/anne-s.jpg" alt="anne">
+                        <p id= "annename"> Anne J</p>
+                    </div>
+                    <div id="alayne">
+                        <img id="alayne1" src="images/alayne-s.jpg" alt="aleyna">
+                        <p id= "alaynename"> Alayne T</p>
+                    </div>
+                    <div id="arry">
+                        <img id="arry1" src="images/arry-s.jpg" alt="arry">
+                        <p id= "arryname"> Arry Y</p>
+                    </div>
+                    <div id="viewmore">
+                        <p id="view">View More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>                                

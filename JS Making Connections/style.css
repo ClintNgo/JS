@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+#innerNav{
+    width: 85%;
+    height: 50;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 10px;
+    font-size: 22pt;
+    color: white;
+}
+
+ul li{
+    color: white;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#navleft {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#navright{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    background-color: #17a2b8;
+    color: white;
+    border: 0px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+#main{
+    width: 85%;
+    height: 1000px;
+    min-width: 800px;
+    margin: auto;
+    display: flex;
+}
+
+#column1{
+    width: 60%;
+    height: 1000px;
+    margin: 10px;
+}
+
+#namecard{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #17a2b8;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 3px solid rgb(189, 187, 187);
+    margin: 20px;
+}
+#namecard1{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+}
+
+#jane{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border:2px solid rgb(189, 187, 187);
+    position: relative;
+    margin-left: 30px;
+    top:-40px
+}
+
+#janename{
+    font-size: 20pt;
+    position: relative;
+    top: -45px;
+    left: 25px;
+}
+
+#marker{
+    width: 15px;
+    position: relative;
+    top: -35px;
+    margin-left: 30px;
+}
+
+#location{
+    position: relative;
+    top:-65px;
+    left: 55px;
+}
+
+#context {
+    font-size: 12pt;
+    width: 300px;
+    position: relative;
+    top: -55px;
+    left: 25px;
+}
+
+#gear{
+    width: 15px;
+    position: relative;
+    top: -70px;
+    left: 25px;
+}
+
+#edit{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    color: #2b78e4 ;
+    text-decoration: underline;
+}
+
+#connectionbox{
+    width: 40%;
+    height: 600px ;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+#connectionR{
+    width: 90%;
+    height: 200px ;
+    background-color: #333333;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 3px solid rgb(189, 187, 187);
+}
+
+#circle{
+    border-radius: 50%;
+    background-color: #ccc;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-self: flex-start;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+#connectionR1{
+    width: 100%;
+    height: 350px ;
+    background-color: #ffffff;
+    border-top: 3px solid rgb(189, 187, 187);
+    justify-content: flex-end;
+}
+
+#connectionR2{
+    width: 100%;
+    height: 55px;
+    justify-self: flex-end;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    text-align: end;
+    padding-right: 40px ;
+    margin-bottom: 20px;
+}
+
+#todd{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#todd1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#toddname {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#accept{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+} 
+
+#decline{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#phil{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#phil1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#philname {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#Yconnection{
+    width: 90%;
+    height: 320px ;
+    background-color: #333333;
+    margin: 20px;
+    border: 3px solid rgb(189, 187, 187);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#Yconnection1{
+    width: 100%;
+    height: 500px ;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#circle1{
+    border-radius: 50%;
+    background-color: #ccc;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    align-self: flex-start;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+#Yconnection2{
+    width: 100%;
+    height: 55px;
+    justify-self: flex-end;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    text-align: end;
+    padding-right: 40px ;
+    margin-bottom: 20px;
+}
+
+#edu{
+    display: flex;
+} 
+#education{
+    width: 100%;
+    height: 250px;
+    background-color: #333333;
+    border: 3px solid rgb(189, 187, 187);
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+#education1{
+    width: 100%;
+    height: 300px ;
+    background-color: #ffffff;
+}
+
+#education2{
+    width: 100%;
+    height: 55px;
+    justify-self: flex-end;
+    color: white;
+    font-size: 16pt;
+    text-align: start;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+#dojo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#time{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 10pt;
+    color: lightslategrey;
+}
+
+#earn{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#adrien{
+    height: 50px;
+    display: flex;
+}
+
+#adrien1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#adrienname {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#anne{
+    height: 50px;
+    display: flex;
+}
+
+#anne1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#annename{
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#alayne{
+    height: 50px;
+    display: flex;
+}
+
+#alayne1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#alaynename {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#arry{
+    height: 50px;
+    display: flex;
+}
+
+#arry1{
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+#arryname {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#viewmore{
+    border-top: 3px solid rgb(189, 187, 187);
+    height: 20px;
+    width: 100%;
+}
+
+#view{
+    color:#2b78e4;
+    text-decoration: underline;
+    margin: 10px;
+}

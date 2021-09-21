@@ -1,4 +1,4 @@
-var count  = 8;
+var count  = 9;
 
 
 function add1(){
@@ -10,7 +10,7 @@ function add1(){
 }
 
 
-var count1 = 11;
+var count1 = 12;
 
 
 function add2(){
@@ -22,7 +22,7 @@ function add2(){
 }
 
 
-var count2 = 8;
+var count2 = 9;
 
 function add3(){
     var countelement = document.querySelector("#count2");
